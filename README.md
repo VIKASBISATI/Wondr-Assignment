@@ -1,7 +1,7 @@
 
-## Available Scripts
+## Steps to run the project
 
-In the project directory, you can run:
+You can run the project using the below instructions
 
 ### `git clone`
 
