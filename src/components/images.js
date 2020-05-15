@@ -144,7 +144,7 @@ class Images extends Component {
                   <>
                     <div key={index}>
                       <img
-                        className="card-image"
+                        // className="card-image"
                         src={
                           this.state.greyScale
                             ? imageInfo.download_url + "?grayscale"
@@ -152,8 +152,8 @@ class Images extends Component {
                         }
                         alt="lorem-picsum"
                         onLoad={this.handleImageLoad}
-                        // height={250}
-                        // width={200}
+                        height={250}
+                        width={200}
                         onClick={() => this.openDialog(index)}
                       />
                       <div className="card-details">
