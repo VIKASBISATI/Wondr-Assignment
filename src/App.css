@@ -8,7 +8,7 @@ body {
 /* Grid */
 .custom-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: 410px;
   grid-gap: 10px;
   padding: 2rem;
@@ -57,4 +57,27 @@ body {
 .dialog-dimension-input{
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 524px) and (max-width: 1052px) {
+  .custom-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 410px;
+    grid-gap: 10px;
+    padding: 2rem;
+    margin-top: 7%;
+    /* display: flex; */
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 524px) {
+  .custom-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 410px;
+    grid-gap: 10px;
+    padding: 2rem;
+    margin-top: 7%;
+    /* display: flex; */
+  }
 }
